@@ -6,6 +6,7 @@ angular.module('app', [
     'ngAnimate',
     'ngMessages',
 
+
     'ui.bootstrap',
 
     'app.global',

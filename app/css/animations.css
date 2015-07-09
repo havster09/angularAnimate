@@ -1,4 +1,15 @@
 /* Animations */
+.alert-container.ng-leave{
+    transition:transform 1s, opacity 1s,margin 1s;
+}
+
+.alert-container.ng-leave-active{
+    transform: scale(0,0);
+    opacity: 0;
+}
+
+
+
 #page-wrapper.open-add,
 #page-wrapper.open-remove {
     transition: padding 350ms linear;
@@ -34,7 +45,7 @@ ng-view.ng-enter-active,
     opacity: 1;
 }
 
-.alert-container.ng-leave {
+/*.alert-container.ng-leave {
     transition: margin 1.5s;
 }
 
@@ -43,7 +54,7 @@ ng-view.ng-enter-active,
     animation-name: hinge;
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
-}
+}*/
 
 .notification-select-icon.ng-enter,
 .notification-select-icon.ng-leave {
